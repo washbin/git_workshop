@@ -1,5 +1,8 @@
 #include<stdio.h>
 int main() {
-	printf("Hello world");
+	char** name;
+	printf("Enter your name")
+	scanf("%s", name);
+	printf("Hello world %s", name);
 	return 0;
 }
